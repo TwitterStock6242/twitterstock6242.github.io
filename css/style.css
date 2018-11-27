@@ -1,0 +1,744 @@
+body {
+    background-color: #f5f6fa;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/*navigation bar*/
+
+nav {
+    width: 100%;
+    height: 0.89rem;
+    background-color: #fff;
+    border: solid 1px #dfe2ee;
+}
+
+nav ul {
+    font-family: Arial;
+    font-size: 0.2rem;
+    letter-spacing: 0.008rem;
+    color: #62667a;
+    list-style: none;
+    margin: 0;
+    padding-top: 0.33rem;
+    padding-left: 1.29rem;
+    
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.line-active {
+    width: 1.04rem;
+    border-bottom: solid 0.05rem #5a64a1;
+    position: absolute;
+    top: 0.57rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*containers*/
+
+.summary-container {
+    width: 4rem;
+    height: 2.8rem;
+    background-color: #fff;
+    margin-left: 0.4rem;
+    margin-top: 0.32rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+}
+
+.tweets-container1 {
+    width: 4rem;
+    height: 5.39rem;
+    background-color: #f9f9f9;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+}
+
+.tweets-container2 {
+    width: 4rem;
+    height: 9.29rem;
+    background-color: #f9f9f9;
+    margin-left: 0.4em;
+    margin-top: 0.32rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+}
+
+.chart-container {
+    width: 13.95rem;
+    height: 6.9rem;
+    background-color: #fff;
+    margin-top: 0.34rem;
+    margin-left: 0.2rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+}
+
+.close-container {
+    width: 3.1975rem;
+    height: 1.15rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.2rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.open-container {
+    width: 3.1975rem;
+    height: 1.15rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.37rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.high-container {
+    width: 3.1975rem;
+    height: 1.15rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.37rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.low-container {
+    width: 3.1975rem;
+    height: 1.15rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.37rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.twitterChange-container {
+    width: 4.4rem;
+    height: 2.04rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.2rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.predictedChange-container {
+    width: 4.4rem;
+    height: 2.04rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.37rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+.otherInfo-container {
+    width: 4.4rem;
+    height: 2.04rem;
+    background-color: #fff;
+    margin-top: 0.29rem;
+    margin-left: 0.37rem;
+    border-radius: 0.05rem;
+    border: solid 0.01rem #dfe2ee;
+    display: inline-block;
+}
+
+/*colorful indicator*/
+
+.summary-indicator1 {
+    width: 4rem;
+    height: 0.1rem;
+    background-color: #4eb784;
+    margin: 0;
+    padding: 0;
+}
+
+.summary-indicator2 {
+    margin-top: 0.45rem;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.summary-icon {
+    width: 0.5rem;
+    display: block;
+}
+
+.indicator-text {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    color: #828a9f;
+    display: block;
+}
+
+.close-indicator {
+    width: 0.07rem;
+    height: 1.15rem;
+    background-color: #5a64a1;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.open-indicator {
+    width: 0.07rem;
+    height: 1.15rem;
+    background-color: #5a64a1;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.high-indicator {
+    width: 0.07rem;
+    height: 1.15rem;
+    background-color: #0b9c55;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.low-indicator {
+    width: 0.07rem;
+    height: 1.15rem;
+    background-color: #d23f31;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/*detail style*/
+
+.summary-title {
+    font-family: Avenir;
+    font-size: 0.24rem;
+    font-weight: 500;
+    letter-spacing: 0.008rem;
+    color: #212121;
+}
+
+.summary-subtitle {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    color: #62667a;
+}
+
+.summary-data {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #4eb784;
+}
+
+.tweet-title {
+    font-family: Avenir;
+    font-size: 0.2rem;
+    font-weight: 500;
+    letter-spacing: 0.008px;
+    color: #212121;
+    margin-left: 0.05rem;
+}
+
+.tweet {
+    width: 3.7rem;
+    min-height: 1.6rem;
+    background-color: #fff;
+    border: solid 0.01rem #dfe2ee;
+    margin-top: 0.09rem;
+    padding-bottom: 0.16rem;
+    position: relative;
+/*
+    display: flex;
+    flex-direction: row;
+*/
+}
+
+.subtitle1 {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #62667a;
+    margin-top: 0.19rem;
+    margin-left: 0.27rem;
+}
+
+.subtitle2 {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    letter-spacing: 0.008rem;
+    color: #62667a;
+/*
+    margin-top: 0.35rem;
+    margin-left: 0.36rem;
+*/
+}
+
+.subtitle3 {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+}
+
+.data {
+    font-family: Helvetica;
+    font-size: 0.26rem;
+    color: #a2a9c4;
+    margin-top: 0.16rem;
+    margin-left: 0.27rem;
+}
+
+/*twitter info*/
+
+#tweets {
+    width: 3.88rem;
+    height: 8rem;
+    overflow: scroll;
+}
+
+.side {
+    width: 0.22rem;
+    height: 100%;
+    border-top-left-radius: 0.03rem;
+    border-bottom-left-radius: 0.03rem;
+    border-right: solid 0.01rem #d3d6e1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.volume-container {
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+}
+
+.up-volume-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.down-volume-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.volume {
+    width: 0.12rem;
+    height: 0.04rem;
+    border-radius: 0.01rem;
+    background-color: #dfe2ee;
+    margin-bottom: 0.03rem;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.135rem;
+    margin-left: 0.32rem;
+}
+
+.row2 {
+    height: auto;
+    margin-top: 0.11rem;
+    margin-left: 0.36rem;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.16rem;
+    margin-left: 0.36rem;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.16rem;
+    margin-left: 0.36rem;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-image: url("../image/trump-pic.jpg");
+    background-size: cover;
+}
+
+.name {
+    font-family: Helvetica;
+    font-size: 0.14rem;
+    font-weight: bold;
+    letter-spacing: 0.006rem;
+    color: #212121;
+    margin-top: 0.03rem;
+    margin-left: 0.09rem;
+}
+
+.username {
+    font-family: Roboto;
+    font-size: 0.12rem;
+    font-weight: 500;
+    letter-spacing: 0.005rem;
+    color: #657786;
+    margin-top: 0.06rem;
+    margin-left: 0.09rem;
+}
+
+.create-time {
+    font-family: Helvetica;
+    font-size: 0.12rem;
+    letter-spacing: 0.005rem;
+    color: #657786;
+    margin-top: 0.05rem;
+    margin-left: 0.09rem;
+}
+
+.content {
+    width: 3.13rem;
+/*    height: 0.2rem;*/
+    font-family: Helvetica;
+    font-size: 0.12rem;
+    line-height: 1.33;
+    color: #212121;
+/*
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+*/
+}
+
+.favorite {
+    width: 0.13rem;
+}
+
+.favorite-text {
+    font-family: Helvetica;
+    font-size: 0.11rem;
+    font-weight: bold;
+    letter-spacing: 0.005rem;
+    color: #657786;
+    margin-top: 0.04rem;
+    margin-left: 0.1rem;
+}
+
+.retweet {
+    width: 0.13rem;
+    margin-left: 0.16rem;
+}
+
+.retweet-text {
+    font-family: Helvetica;
+    font-size: 0.11rem;
+    font-weight: bold;
+    letter-spacing: 0.005rem;
+    color: #657786;
+    margin-top: 0.04rem;
+    margin-left: 0.1rem;
+}
+
+.break-line {
+    width: 3.33rem;
+    height: 0.02rem;
+    background-color: #def2ee;
+    margin-top: 0.14rem;
+    margin-left: 0.36rem;
+}
+
+.link-icon {
+    width: 0.14rem;
+}
+
+.link {
+    font-family: Roboto;
+    font-size: 0.12rem;
+    font-weight: 500;
+    letter-spacing: 0.005rem;
+    color: #2b7bb9;
+    margin-left: 0.07rem;
+    margin-top: 0.02rem;
+}
+
+.arrow {
+    width: 0.1rem;
+    margin-left: 1.8rem;
+}
+
+.tooltip {
+    width: 2.42rem;
+    height: 1.11rem;
+    border-radius: 0.05rem;
+    box-shadow: 0 2px 15px 1px rgba(145, 154, 162, 0.51);
+    background-color: #ffffff;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.27rem;
+    opacity: 0;
+}
+
+.tooltip-title {
+    font-family: Helvetica;
+    font-size: 0.18rem;
+    letter-spacing: 0.008rem;
+    color: #62667a;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.tooltip-text {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #4eb784;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+/*chart info*/
+
+.tab {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    letter-spacing: 0.008rem;
+    color: #62667a;
+}
+
+.tab-line {
+    display: inline-block;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.12rem;
+    border-bottom: solid 0.02rem #def2ee;
+    cursor: pointer;
+}
+
+.tab-active {
+    border-bottom: solid 0.04rem #62667a;
+}
+
+.chart-title {
+    font-family: Avenir;
+    font-size: 0.2rem;
+    font-weight: 500;
+    letter-spacing: 0.008rem;
+    color: #212121;
+}
+
+.line-plot {
+    fill: none;
+    stroke: #4aa5ff;
+    stroke-width: 0.04rem;
+}
+
+.axis path {
+    stroke: #a2a9c4;
+    stroke-width: 0.04rem;
+}
+
+.y path {
+    stroke: none;
+}
+
+.axis text {
+    font-family: Roboto;
+    font-size: 0.2rem;
+    font-weight: 500;
+    fill: #828a9f;
+}
+
+.brush-axis path {
+    stroke: #dfe2ee;
+    stroke-width: 0.05rem;
+}
+
+.brush-axis text {
+    font-family: Roboto;
+    font-size: 0.16rem;
+    font-weight: 500;
+    fill: #828a9f;
+}
+
+.grid line {
+    stroke: #dfe2ee;
+    shape-rendering: crispEdges;
+}
+
+.grid .domain {
+    display: none;
+}
+
+.stock-name {
+    font-family: Helvetica;
+    font-size: 0.24rem;
+    letter-spacing: 0.001rem;
+    fill: #62667a;
+}
+
+.zoom {
+    fill: none;
+    cursor: move;
+    pointer-events: all;
+}
+
+.brush .selection {
+    fill: rgba(74, 165, 255, 0.4);
+}
+
+.brush .handle {
+    width: 0.15rem;
+    height: 0.4rem;
+    fill: #4688ff;
+}
+
+/*sub-section*/
+.si-data {
+    font-family: Helvetica;
+    font-size: 0.36rem;
+    letter-spacing: 0.015rem;
+    color: #1da1f2;
+    display: inline;
+    margin-left: 1.1rem;
+}
+
+.si-pos-div {
+    height: 0.06rem;
+    background-color: #4eb784;
+}
+
+.si-pos {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    margin-left: 0.15rem;
+}
+
+.si-neg-div {
+    height: 0.06rem;
+    background-color: #e64a19;
+}
+
+.si-neg {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    margin-left: 0.15rem;
+}
+
+.cp-data {
+    font-family: Helvetica;
+    font-size: 0.36rem;
+    letter-spacing: 0.015rem;
+    color: #1da1f2;
+    display: inline;
+    margin-left: 0.9rem;
+}
+
+.cp-pos-div {
+    height: 0.06rem;
+    background-color: #4eb784;
+}
+
+.cp-pos {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    margin-left: 0.15rem;
+}
+
+.cp-neg-div {
+    height: 0.06rem;
+    background-color: #e64a19;
+}
+
+.cp-neg {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    margin-left: 0.15rem;
+}
+
+.ca-data {
+    font-family: Helvetica;
+    font-size: 0.36rem;
+    letter-spacing: 0.015rem;
+    color: #1da1f2;
+    display: inline;
+    margin-left: 0.7rem;
+}
+
+.ca-pos {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    display: inline;
+    margin-left: 0.08rem;
+}
+
+.ca-pos-div {
+    height: 0.06rem;
+    background-color: #4eb784;
+}
+
+.ca-neg {
+    font-family: Helvetica;
+    font-size: 0.16rem;
+    font-weight: bold;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    display: inline;
+    margin-left: 0.08rem;
+}
+
+.ca-neg-div {
+    height: 0.06rem;
+    background-color: #e64a19;
+}
+
+

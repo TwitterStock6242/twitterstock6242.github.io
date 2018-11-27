@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/forward</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iteration3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="history" transform="translate(-131.000000, -297.000000)" stroke="#657786">
+            <g id="tweet" transform="translate(55.000000, 200.000000)">
+                <g id="comment-info" transform="translate(16.000000, 96.000000)">
+                    <g id="icon/forward" transform="translate(59.000000, 2.000000)">
+                        <g transform="translate(0.500000, 0.000000)">
+                            <g id="Group" transform="translate(0.500000, 0.000000)">
+                                <path d="M3.75,-1.37667655e-14 C3.75,3.95842946 3.75,6.47582627 3.75,7.55219043 C3.75,9.16673666 4.56591772,9.81390858 5.90794635,9.81390858 C6.8026321,9.81390858 8.12428204,9.81390858 9.87289615,9.81390858" id="Path"></path>
+                                <polyline id="Path-2" points="0.865985725 2.92854465 3.72993587 0.0645945109 6.59388601 2.92854465"></polyline>
+                            </g>
+                            <g id="Group-Copy" transform="translate(12.500000, 5.000000) rotate(-180.000000) translate(-12.500000, -5.000000) translate(7.500000, 0.000000)">
+                                <path d="M3.75,-1.37667655e-14 C3.75,3.95842946 3.75,6.47582627 3.75,7.55219043 C3.75,9.16673666 4.56591772,9.81390858 5.90794635,9.81390858 C6.8026321,9.81390858 8.12428204,9.81390858 9.87289615,9.81390858" id="Path"></path>
+                                <polyline id="Path-2" points="0.865985725 2.92854465 3.72993587 0.0645945109 6.59388601 2.92854465"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
