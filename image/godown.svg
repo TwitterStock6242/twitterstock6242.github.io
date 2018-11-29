@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="112px" viewBox="0 0 84 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>go up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.81864103%" y1="100%" x2="100%" y2="38.6821198%" id="linearGradient-1">
+            <stop stop-color="#E64A19" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iteration3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prediction-down" transform="translate(-792.000000, -449.000000)" fill="url(#linearGradient-1)">
+            <polygon id="go-up" transform="translate(834.000000, 524.750000) scale(1, -1) translate(-834.000000, -524.750000) " points="792 600.5 876 593.12609 876 449"></polygon>
+        </g>
+    </g>
+</svg>

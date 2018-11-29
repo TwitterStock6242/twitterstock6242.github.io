@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="33px" viewBox="0 0 58 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>trend arrow copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iteration3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prediction-down" transform="translate(-206.000000, -207.000000)">
+            <g id="trading-advice" transform="translate(40.000000, 121.000000)">
+                <g id="trend-arrow-copy" transform="translate(168.000000, 89.000000)">
+                    <polyline id="Path-8" stroke="#D23F31" stroke-width="4" points="0 2.84514319 10.9432418 13.286428 25.6972009 0 41 15"></polyline>
+                    <path d="M48.8868416,12.8188855 L61.6606305,29.5846212 C62.1626906,30.2435804 62.0354986,31.1847725 61.3765394,31.6868325 C61.1166794,31.8848195 60.799287,31.9925575 60.4725993,31.9936726 L34.8652687,32.0810779 C34.0368464,32.0839056 33.3629852,31.4146289 33.3601575,30.5862066 C33.3590309,30.2561455 33.4668002,29.9349279 33.6667641,29.6723331 L46.5003057,12.819192 C47.0021965,12.1601039 47.9433558,12.0326702 48.6024439,12.5345609 C48.7095755,12.6161408 48.8052342,12.7117749 48.8868416,12.8188855 Z" id="Triangle" fill="#D23F31" transform="translate(47.663854, 22.154476) rotate(-225.000000) translate(-47.663854, -22.154476) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

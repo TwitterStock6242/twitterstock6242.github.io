@@ -173,7 +173,7 @@ p {
 .summary-indicator1 {
     width: 4rem;
     height: 0.1rem;
-    background-color: #4eb784;
+    background-color: #d23f31;
     margin: 0;
     padding: 0;
 }
@@ -269,14 +269,22 @@ p {
     width: 3.7rem;
     min-height: 1.6rem;
     background-color: #fff;
+    border-radius: 0.03rem;
     border: solid 0.01rem #dfe2ee;
     margin-top: 0.09rem;
     padding-bottom: 0.16rem;
     position: relative;
-/*
-    display: flex;
-    flex-direction: row;
-*/
+}
+
+.r-tweet {
+    width: 3.7rem;
+    min-height: 1.6rem;
+    background-color: #fff;
+    border-radius: 0.03rem;
+    border: solid 0.01rem #dfe2ee;
+    margin-top: 0.09rem;
+    padding-bottom: 0.16rem;
+    position: relative;
 }
 
 .subtitle1 {
@@ -319,6 +327,13 @@ p {
 #tweets {
     width: 3.88rem;
     height: 8rem;
+    overflow: scroll;
+    position: relative;
+}
+
+#recent-tweets {
+    width: 3.88rem;
+    height: 4.3rem;
     overflow: scroll;
 }
 
@@ -390,6 +405,34 @@ p {
     flex-direction: row;
     margin-top: 0.16rem;
     margin-left: 0.36rem;
+    cursor: pointer;
+}
+
+.r-row1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.135rem;
+    margin-left: 0.12rem;
+}
+
+.r-row2 {
+    height: auto;
+    margin-top: 0.11rem;
+    margin-left: 0.16rem;
+}
+
+.r-row3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.16rem;
+    margin-left: 0.16rem;
+}
+
+.r-row4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.16rem;
+    margin-left: 0.16rem;
     cursor: pointer;
 }
 
@@ -561,6 +604,12 @@ p {
     color: #212121;
 }
 
+.p-line-plot {
+    fill: none;
+    stroke: #4aa5ff;
+    stroke-width: 0.04rem;
+}
+
 .line-plot {
     fill: none;
     stroke: #4aa5ff;
@@ -625,6 +674,67 @@ p {
     width: 0.15rem;
     height: 0.4rem;
     fill: #4688ff;
+}
+
+.chart-tooltip {
+    position: absolute;
+    width: 3.5rem;
+    height: 1.7rem;
+    border-radius: 0.05rem;
+    box-shadow: 0 2px 15px 1px rgba(145, 154, 162, 0.51);
+    background-color: #ffffff;
+    z-index: 4444;
+    display: none;
+}
+
+.chart-tooltip-text1 {
+    font-family: Helvetica;
+    font-size: 0.14rem;
+    letter-spacing: 0.006rem;
+    color: #919aa2;
+    margin-left: 0.22rem;
+}
+
+.chart-tooltip-text2 {
+    font-family: Helvetica;
+    font-size: 0.18rem;
+    letter-spacing: 0.007rem;
+    color: #62667a;
+    margin-left: 0.22rem;
+}
+
+.chart-tooltip-text3 {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    letter-spacing: 0.008rem;
+    color: #62667a;
+    margin-left: 0.84rem;
+}
+
+.chart-tooltip-text4 {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #d23f31;
+    margin-left: 0.4rem;
+}
+
+.predict-icon {
+    width: 0.4rem;
+    margin-left: 0.6rem;
+}
+
+.chart-tooltip-text5 {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #d23f31;
+    margin-left: 0.15rem;
+}
+
+.tweet-dot {
+    opacity: 0;
 }
 
 /*sub-section*/
@@ -739,6 +849,66 @@ p {
 .ca-neg-div {
     height: 0.06rem;
     background-color: #e64a19;
+}
+
+
+/*prediction page*/
+.BuyAt {
+    font-family: Helvetica;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #828a9f;
+    margin-left: 0.38rem;
+}
+
+.buy-price {
+    font-family: Helvetica;
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #d23f31;
+    margin-left: 1.08rem;
+}
+
+.legend {
+    font-family: Roboto;
+    font-size: 0.18rem;
+    font-weight: 500;
+    color: #828a9f;
+}
+
+.p-area {
+    fill: rgba(204, 233, 255, 0.5);
+    stroke: none;
+}
+
+.addTweet {
+    width: 1rem;
+    height: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #4aa5ff;
+    box-shadow: 0 2px 15px 1px rgba(145, 154, 162, 0.51);
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 0.14rem;
+    color: #fff;
+}
+
+.p-ref-line {
+    stroke: #a2a9c4;
+    stroke-width: 0.05rem;
+}
+
+.p-ref-text {
+    font-family: Helvetica;
+    font-size: 0.2rem;
+    font-weight: bold;
+    fill: #777b8b;
+}
+
+.p-pred-line-plot {
+    fill: none;
+    stroke: #02cfc1;
+    stroke-width: 0.04rem;
 }
 
 

@@ -33,10 +33,14 @@
                         <p class="summary-title" style="align-items: center;">Summary</p>
                     </div>
                     <div class="summary-indicator2">
-                        <img src="image/up.svg" class="summary-icon">
+                        <img src="image/down.svg" class="summary-icon">
                     </div>
                     <div style="display: flex; justify-content: center;">
                         <p class="indicator-text">30 mins after tweet</p>
+                    </div>
+                    <div style="display: flex; margin-top: 0.37rem;">
+                        <p class="BuyAt">Buy at</p>
+                        <p class="buy-price">USD 268.23</p>
                     </div>
                 </div>
                 <div class="tweets-container1">
@@ -51,7 +55,25 @@
                 </div>
             </div>
             <div style="display: inline-block; vertical-align: top; font-size: 0;">
-                <div class="chart-container">
+                <div class="chart-container" style="text-align: center; position: relative;">
+<!--                    <div class="chart-tooltip"></div>-->
+                    <p class="chart-title" style="margin-top: 0.26rem;">History Stock Price</p>
+                    <div style="width: 13rem; height: 5rem; margin-top: 0.5rem; position: absolute; left: 50%; transform: translate(-50%, 0);">
+                        <svg id="prediction-chart" width="100%" height="100%" viewBox="0 0 1350 540" preserveAspectRatio="xMidYMid meet"></svg>
+                    </div>
+                    <div style="position: absolute; top: 0.6rem; left: 12.2rem;">
+                        <button class="addTweet">Add Tweet</button>
+                    </div>
+                    <div style="position: absolute; top: 6rem; left: 50%; transform: translate(-50%, 0); display: flex; flex-direction: row; align-items: center; justify-content: center; width: 100%;">
+                        <img src="image/price.svg" style="width: 0.38rem;">
+                        <p class="legend" style="margin-left: 0.17rem;">Stock Price</p>
+                        <img src="image/predicted-price.svg" style="width: 0.38rem; margin-left: 0.47rem;">
+                        <p class="legend" style="margin-left: 0.17rem;">Real-time Predicted Price</p>
+                        <img src="image/volume.svg" style="width: 0.51rem; margin-left: 0.47rem;">
+                        <p class="legend" style="margin-left: 0.17rem;">Trading Volume (shares)</p>
+                        <img src="image/trend.svg" style="width: 0.51rem; margin-left: 0.47rem;">
+                        <p class="legend" style="margin-left: 0.17rem;">Predicted Trend</p>
+                    </div>
                 </div>
                 <div class="close-container" style="vertical-align: top; font-size: 0;">
                     <div class="close-indicator"></div>
@@ -97,10 +119,12 @@
             </div>
             <div style="display: inline-block; vertical-align: top; font-size: 0;">
                 <div class="chart-container" style="text-align: center; position: relative;">
+                    <div class="chart-tooltip"></div>
                     <p class="chart-title" style="margin-top: 0.26rem;">History Stock Price</p>
                     <div style="width: 13rem; height: 5rem; margin-top: 0.5rem; position: absolute; left: 50%; transform: translate(-50%, 0);">
                         <svg id="history-chart" width="100%" height="100%" viewBox="0 0 1350 540" preserveAspectRatio="xMidYMid meet"></svg>
                     </div>
+<!--
                     <div style="position: absolute; top: 1rem; right: 0.7rem;">
                         <div id="day" class="tab-line tab-active">
                             <p class="tab">1 Day</p>
@@ -115,6 +139,7 @@
                             <p class="tab">1 Year</p>
                         </div>
                     </div>
+-->
                 </div>
                 <div class="twitterChange-container" style="vertical-align: top;">
                     <div style="margin-top: 0.2rem;">
